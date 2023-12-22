@@ -4,14 +4,14 @@ import styles from "./transactions.module.css";
 const Transactions = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Latest Transactions</h2>
+      <h2 className={styles.title}>Últimas Transações</h2>
       <table className={styles.table}>
         <thead>
           <tr>
-            <td>Name</td>
+            <td>Nome</td>
             <td>Status</td>
-            <td>Date</td>
-            <td>Amount</td>
+            <td>Data</td>
+            <td>Valor</td>
           </tr>
         </thead>
         <tbody>
@@ -33,8 +33,8 @@ const Transactions = () => {
                 Pending
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3.200</td>
+            <td>14/02/2024</td>
+            <td>R$ 3.200</td>
           </tr>
           <tr>
             <td>
@@ -52,8 +52,8 @@ const Transactions = () => {
             <td>
               <span className={`${styles.status} ${styles.done}`}>Done</span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3.200</td>
+            <td>14/02/2024</td>
+            <td>R$ 3.200</td>
           </tr>
           <tr>
             <td>
@@ -73,8 +73,8 @@ const Transactions = () => {
                 Cancelled
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3.200</td>
+            <td>14/02/2024</td>
+            <td>R$ 3.200</td>
           </tr>
           <tr>
             <td>
@@ -94,8 +94,8 @@ const Transactions = () => {
                 Pending
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3.200</td>
+            <td>14/02/2024</td>
+            <td>R$ 3.200</td>
           </tr>
         </tbody>
       </table>
