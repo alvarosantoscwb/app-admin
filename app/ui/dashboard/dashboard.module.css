@@ -6,6 +6,7 @@
   flex: 1;
   background-color: var(--bgSoft);
   padding: 20px;
+  min-height: 100vh;
 }
 
 .content {
@@ -25,11 +26,13 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .cards {
   display: flex;
   gap: 20px;
   justify-content: space-between;
 }
+
 .side {
   flex: 1;
 }
